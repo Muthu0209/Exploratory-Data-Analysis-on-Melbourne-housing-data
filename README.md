@@ -84,7 +84,7 @@ The dataset contains **27,114 property sales** with **16 attributes** covering p
    pip install numpy pandas matplotlib seaborn jupyter
    ```
 3. Place `Melbourne_Housing.csv` in the project folder.
-4. Open `ExploratoryDataAnalysis.ipynb`. The notebook was written in Google Colab and reads the data from a Google Drive path, so update the `pd.read_csv(...)` path (and remove the `drive.mount` cell if running locally).
+4. Open `ExploratoryDataAnalysis.ipynb`. The notebook was written in Google Colab and reads the data from a Google Drive path, so update the `pd.read_csv('Melbourne_Housing.csv')` path (and remove the `drive.mount` cell if running locally).
 
 ## Author
 
